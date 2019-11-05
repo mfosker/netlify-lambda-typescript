@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@types/node": "^10.12.12",
+    "@types/node-fetch": "^2.5.3",
+    "node-fetch": "^2.6.0",
     "typescript": "^3.2.2"
   },
   "scripts": {

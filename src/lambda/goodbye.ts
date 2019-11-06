@@ -1,6 +1,6 @@
-import { Handler, Context, Callback, APIGatewayEvent } from 'aws-lambda';
+import { Handler, Context, APIGatewayEvent } from 'aws-lambda';
 
-const handler = async (event: APIGatewayEvent, context:Context) => {
+const handler: Handler = async (event: APIGatewayEvent, context:Context) => {
   return {
     statusCode: 200,
     body: "Goodbye, World"

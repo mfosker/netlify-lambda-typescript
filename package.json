@@ -6,7 +6,9 @@
     "@types/node": "^10.12.12",
     "@types/node-fetch": "^2.5.3",
     "node-fetch": "^2.6.0",
-    "typescript": "^3.2.2"
+    "typescript": "^3.2.2",
+    "winston": "^3.2.1",
+    "winston-papertrail": "^1.0.5"
   },
   "scripts": {
     "start": "run-p start:**",
